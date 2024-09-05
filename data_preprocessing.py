@@ -34,6 +34,22 @@ Kategorik Veriler :Aralarında büyüklük küçüklük ilişkisi kurulamayan ,c
 
 
 '''
+'''
+ONE-HOT ENCODING :
+    -kategorik verileri sayısal verilere çevirmek için kullanılır.
+    -her kategori için ayrı bir sutun oluşturur ve sadece ilgili kategorinin bulunduğu satıra 1 diğerlerine 0 değerini verir.
+    -binary vektörlere dönüştürür
+    -kategoriler arasında ilişki kurmaz
+    -kategoriler arttıkça veri seti boyutu artar
+    -sıralı olmayan kategoriler(nominal)
+LABEL ENCODING:
+    -kategorik verileri sayısal verilere çevirmek için kullanılır.
+    -kategorik verileri doğrudan sayısal verilere çevirir.Her kategoriye bir tam sayı değeri atanır.
+    -tam sayılara dönüştürür.
+    -kategoriler arasında sıralı ilişki kurar
+    -veri seti boyutunu arttırmaz
+    -sıralı kategoriler(ordinal)
+'''
 
 #KÜTÜPHANELER
 '''Pandas:veri manipülasyonu ve analizi için kullanılır.
