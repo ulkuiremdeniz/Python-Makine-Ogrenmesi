@@ -57,7 +57,7 @@ from sklearn.linear_model import LogisticRegression
 log_classifier = LogisticRegression(random_state=0)
 log_classifier.fit(X_train,y_train)
 
-y_pred = log_classifier.predict(x_test)
+y_pred = log_classifier.predict(X_test)
 print(x_test)
 print(y_test)
 print(y_pred)
